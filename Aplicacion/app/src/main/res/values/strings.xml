@@ -1,0 +1,5 @@
+<!-- En este archivo introduciremos cadenas de texto asignadas a una constante específica -->
+
+<resources>
+    <string name="app_name">RedIncidencias</string>
+</resources>

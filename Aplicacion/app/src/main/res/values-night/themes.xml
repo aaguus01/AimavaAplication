@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+         ______________________________________________________________
+        |  Tema OSCURO
+        |______________________________________________________________
+    -->
+
+    <!-- Indicamos que no deseamos ver una barra de acción (por lo general) -->
+    <style name="Theme.RedIncidencias" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Gama de colores primarios -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryVariant">@color/red_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Gama de colores secundarios -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+</resources>
